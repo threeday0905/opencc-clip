@@ -1,7 +1,7 @@
 {
   "name": "opencc-clip",
   "version": "0.1.0",
-  "description": "",
+  "description": "Donversion between Traditional Chinese and Simplified Chinese in clipboard",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,7 +18,9 @@
     "unicode",
     "Simplified Chinese",
     "Traditional Chinese",
-    "copy paste"
+    "copy paste",
+    "clipboard",
+    "alfred workflow"
   ],
   "author": "Herman <threeday0905@gmail.com>",
   "license": "ISC",
@@ -26,5 +28,13 @@
     "commander": "~2.9.0",
     "copy-paste": "~1.3.0",
     "opencc": "^1.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:threeday0905/opencc-clip.git"
+  },
+  "bugs": {
+    "url": "https://github.com/threeday0905/opencc-clip/issues"
+  },
+  "homepage": "https://github.com/threeday0905/opencc-clip#readme"
 }
