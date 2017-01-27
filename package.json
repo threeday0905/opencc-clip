@@ -1,7 +1,7 @@
 {
   "name": "opencc-clip",
   "version": "0.1.0",
-  "description": "Donversion between Traditional Chinese and Simplified Chinese in clipboard",
+  "description": "Conversion between Traditional Chinese and Simplified Chinese in clipboard",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

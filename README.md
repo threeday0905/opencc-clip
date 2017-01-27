@@ -3,7 +3,7 @@
 A command line tool to do a conversion between Traditional Chinese and Simplified Chinese in **clipboard**, based on [OpenCC](https://github.com/BYVoid/OpenCC)
 
 
-一個命令行工具，輕鬆的將剪貼簿中的繁體中文與簡體中文進行轉換，基於 [OpenCC](https://github.com/BYVoid/OpenCC) 的字典檔。
+命令行工具，可將剪貼簿中的繁體中文與簡體中文進行轉換，節省複製貼上的時間。基於 [OpenCC](https://github.com/BYVoid/OpenCC) 進行開發。
 
 ## Install
 
@@ -55,7 +55,7 @@ s2t -i file.txt
 
 ```
 
-可將 file.txt　的內容，從簡體轉換成繁體後，貼到剪貼簿
+可將 file.txt 的內容，從簡體轉換成繁體後，貼到剪貼簿
 
 
 ## Full Feature　- Convert Cipboard content (t2s or st2) to generate File
@@ -67,7 +67,7 @@ t2s -o file_output.txt
 
 ```
 
-可將 剪貼簿的內容，從繁體轉換為簡體後，生成file_output.txt
+可將剪貼簿的內容，從繁體轉換為簡體後，生成file_output.txt
 
 
 ## Full Feature - Conversion between files
@@ -80,27 +80,24 @@ s2t -i file.txt -o file_output.txt
 
 ## Full Feature - Specific Dictionary
 
-OpenCC除了t2s跟s2t之外，還支持不同的字典檔，可參考
+OpenCC除了t2s跟s2t之外，還支持不同的字典檔，可參考　<https://github.com/BYVoid/OpenCC> 已獲取所有支持的字典檔列表
 
-<https://github.com/BYVoid/OpenCC>
-
-可透過以下方式指定字典檔，如：
+透過以下方式指定字典檔，如：
 
 ```shell
 opencc-clip -d tw2sp
 ```
 
-Traditional Chinese (Taiwan Standard) to Simplified Chinese with Mainland Chinese idiom 繁體（臺灣正體標準）到簡體並轉換爲中國大陸常用詞彙
+則可將繁體（臺灣正體標準）到簡體並轉換爲中國大陸常用詞彙
 
 
 ## Full Feature - Node.js Usage
 
-同時也支持Node.js進行二次開發，可直接
+同時也支持Node.js進行二次開發
 
 
 ```javascript
 const openccClip = require('opencc-clip')
-
 
 openccClip(
   {
