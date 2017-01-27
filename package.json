@@ -1,0 +1,30 @@
+{
+  "name": "opencc-clip",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "opencc-clip": "./bin/opencc-clip",
+    "s2t": "./bin/s2t",
+    "t2s": "./bin/t2s"
+  },
+  "keywords": [
+    "opencc",
+    "Chinese",
+    "conversion",
+    "unicode",
+    "Simplified Chinese",
+    "Traditional Chinese",
+    "copy paste"
+  ],
+  "author": "Herman <threeday0905@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "~2.9.0",
+    "copy-paste": "~1.3.0",
+    "opencc": "^1.0.4"
+  }
+}

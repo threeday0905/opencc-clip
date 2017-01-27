@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+const program = require('../lib/program')
+const main = require('../lib')
+
+program
+  .parse(process.argv)
+
+main(program, 's2t.json')
