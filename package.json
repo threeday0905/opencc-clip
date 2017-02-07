@@ -1,6 +1,6 @@
 {
   "name": "opencc-clip",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Conversion between Traditional Chinese and Simplified Chinese in clipboard",
   "main": "lib/index.js",
   "scripts": {
